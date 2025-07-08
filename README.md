@@ -12,17 +12,17 @@
 
 ## Implementation
 
-### 1️⃣ Baseline 및 알고리즘
+#### 1️⃣ Baseline 및 알고리즘
 - DQN, Multi-step DQN, Double DQN, Dueling DQN, Dueling + Double DQN
 - Prioritized Experience Replay (PER) 적용 및 annealing 스케줄 사용
 
-### 2️⃣ 강화 기법
+#### 2️⃣ 강화 기법
 - Reward Shaping
 - PER
 - Reward Shaping + PER 조합
 - PER의 β 계수 0.4 → 1.0 점진적 증가로 탐험 → 수렴 유도
 
-### 3️⃣ Ablation Study
+#### 3️⃣ Ablation Study
 - 모델 구조별 성능 비교
 - 강화 기법별 성능 비교
 - Train 환경과 Eval 환경 속도 미세 조정으로 lap time 단축
